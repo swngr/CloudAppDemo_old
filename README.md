@@ -19,8 +19,8 @@ $ Pull or download the repository locally
 $ Install Node.js
 $ Open VS Code and import the folder that contains CloudAppDemo code
 $ Install Cypress (if it's not installed already)
-  * npm install cypress --save-dev
+  - npm install cypress --save-dev
 $ Open Cypress
-  * npx cypress open
+  - npx cypress open
 $ Run the 3 integration specs inside CloudApp folder
 ```
