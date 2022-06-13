@@ -31,7 +31,7 @@ describe("Sign Up & Sign Out flows", () => {
         cy.visit("/")
         cy.get('#login-dblue').click()
         cy.get('a[href="/signup"]').click()
-        cy.get('#email').type("asdf@13.com")
+        cy.get('#email').type("asdf@14.com")
         cy.get('#password').type("Test!1234")
         cy.get('input[type="submit"]').click()
         cy.contains('.alert-danger','Validation failed: Email has already been taken').should('exist')

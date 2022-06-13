@@ -16,8 +16,6 @@ describe("Update avatar flow", () => {
 
         //Click on user main menu dropdown
         cy.get('#main-menu').click()
-        
-        cy.wait(1000)
 
         //Click on Settings
         cy.get('[data-testid="dropdown-link-settings"]').click()
