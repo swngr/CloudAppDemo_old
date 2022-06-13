@@ -59,8 +59,6 @@ describe("Sign Up & Sign Out flows", () => {
         //Sign out user 
         cy.get('#main-menu').click()
 
-        cy.wait(1000)
-
         //Click Sign Out
         cy.get('[data-testid="dropdown-link-sign_out"]').click()
 
